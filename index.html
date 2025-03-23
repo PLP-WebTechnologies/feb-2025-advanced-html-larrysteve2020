@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Larry's Web page</title>
+</head>
+<body>
+    <H1>Orderd list</H1>
+    <ol type= "i">
+        <li>cofee</li>
+        <li>milk</li>
+        <li>bread</li>
+        <li>chapati</li>
+    </ol>
+    <div>
+        <img src="https://images.pexels.com/photos/31201114/pexels-photo-31201114/free-photo-of-elegant-coffee-tray-with-cup-and-flower-arrangement.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="white cofee"
+        width="300px"
+        height="300px">
+        </div>
+        <div>
+            <h2>Table of contacts</h2>
+            <table border="1"> 
+                <thead>
+                    <tr>
+                    <th>Name</th>
+                     <th>Address</th>
+                    <th>mobile no</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Larry Steve</td>
+                    <td>24 Nivasha road, Kenya</td>
+                    <td>+254775498278</td>
+                    <td>larrysteve8801@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Moi Avenue, Kenya</td>
+                    <td>+254712345697</td>
+                    <td>john.doe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Park Ave, Kenya</td>
+                    <td>+254759876543</td>
+                    <td>jane.smith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Robert Johnson</td>
+                    <td>789 Elm St, Kenya</td>
+                    <td>+254762223333</td>
+                    <td>robert.j@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>321 city park, Kenya</td>
+                    <td>+254544455543</td>
+                    <td>emily.d@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Wilson</td>
+                    <td>654 Valley rd, Kenya</td>
+                    <td>+254724545627</td>
+                    <td>michael.w@gmail.com</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Registrastion form</h3>
+          
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <div>
+                <label for="name">First Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+            </div>
+            <br>
+            <div>
+                <label for="name">second name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your second name" required>
+            </div><br>
+            
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Create your password" 
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                       title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 characters" 
+                       required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="birthdate">Date of Birth:</label><br>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            
+            <div>
+                <label for="education">Highest Education:</label><br>
+                <select id="education" name="education" required>
+                    <option value="">Select Education Level</option>
+                    <option value="high-school">High School</option>
+                    <option value="bachelors">Bachelor's Degree</option>
+                    <option value="masters">Master's Degree</option>
+                    <option value="phd">PhD</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                
+                <input type="radio" id="prefer not to say" name="gender" value="other">
+                <label for="prefer not say">Prefer not to say</label>
+            </div>
+            <br>
+            
+            <div>
+                <label>Interests (Check all that apply):</label><br>
+                <input type="checkbox" id="tech" name="interests" value="technology">
+                <label for="tech">Technology</label><br>
+                
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label><br>
+                
+                <input type="checkbox" id="art" name="interests" value="art">
+                <label for="art">Art</label><br>
+                
+                <input type="checkbox" id="science" name="interests" value="science">
+                <label for="science">Science</label>
+            </div>
+        </fieldset>
+        <br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset Form</button>
+    </form>
+
+        </div>
+</body>
+</html> 
+    
